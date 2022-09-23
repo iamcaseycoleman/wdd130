@@ -10,7 +10,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: none;
+    background-color: #475779;
     color:#141615;
 }
 
@@ -67,12 +67,12 @@ header {
 }
 
 .book:hover {
-    background-color: none;
+    background-color: #475779;
     color:#141615;
 }
 
 .join:hover {
-    background-color: none;
+    background-color: #475779;
     color:#141615;
 }
 
@@ -101,7 +101,7 @@ footer h3 {
 }
 
 footer p {
-    text-size: 1.2em;
+    font-size: 1.2em;
 }
 
 footer p a:hover {
@@ -110,7 +110,7 @@ footer p a:hover {
 
 footer a {
     color:#fb6107;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 footer a:hover {
