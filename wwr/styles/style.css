@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik:wght@500&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 nav a {
     text-align: center;
     color:#fb6107;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -20,10 +27,14 @@ nav a:hover {
 
 #hero_msg h1 {
     text-align: center;
+    font-family: 'Rubik Dirt', 'Rubik', sans-serif;
+
 }
 
 #hero_msg h4 {
     text-align: center;
+    font-family: 'Rubik Dirt', 'Rubik', sans-serif;
+
 }
 
 .logo {
@@ -44,6 +55,18 @@ main section {
 
 body {
     background-color: #e9eaef;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.copy {
+    font-family: 'Rubik', Arial, sans-serif;
+
 }
 
 header {
@@ -54,17 +77,17 @@ header {
     width: 80px;
 }
 
-.book {
+.book, .join {
     background-color: #475779;
     color:#fb6107;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
-.join {
-    background-color: #475779;
-    color:#fb6107;
-    text-decoration: none;
-}
+
 
 .book:hover {
     background-color: #475779;
@@ -82,6 +105,8 @@ header {
 
 .msg {
     background-color:#475779;
+    line-height: 1.5em;
+    padding:35px;
 }
 
 .msg h2 {
@@ -90,10 +115,17 @@ header {
 
 .msg p {
     color:#141615;
+    padding-bottom: 15px;
 }
 
 footer {
-    background-color:#475779
+    background-color:#475779;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social image {
+    padding: 15px;
 }
 
 footer h3 {
@@ -119,8 +151,26 @@ footer a:hover {
 
 .home_title {
     color:#141615;
+    margin-top: 10px;
+
 }
 
 h4 {
     color:#141615;
 }
+
+.home_grid h2 {
+    font-family: 'Rubik Dirt', 'Rubik', sans-serif;
+
+
+}
+
+.card_img {
+   
+    border: #141615 10px;
+}
+
+.rivers_card, .capmping_card, .rapids_card {
+    margin: 200px 0;
+}
+
